@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/apro/static/css/main.544722dc.css",
+    "main.js": "/apro/static/js/main.a94f7d7f.js",
+    "static/media/logo.png": "/apro/static/media/logo.e0f645bca2e54af314f0.png",
+    "index.html": "/apro/index.html",
+    "main.544722dc.css.map": "/apro/static/css/main.544722dc.css.map",
+    "main.a94f7d7f.js.map": "/apro/static/js/main.a94f7d7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.544722dc.css",
+    "static/js/main.a94f7d7f.js"
+  ]
+}
