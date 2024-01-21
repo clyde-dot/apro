@@ -1,36 +1,43 @@
 import React from "react";
 import "./Header.css";
-import logo from "../../assets/images/logo.png";
-
 import { Link } from "react-router-dom";
+import { ReactComponent as Search } from "../../assets/images/search.svg";
+
+import { ReactComponent as Logo } from "../../assets/images/logo.svg";
 
 function Header() {
   return (
     <header className="header">
-      <Link to="/">
-        <img className="logo" src={logo} width="220" height="80" alt="apro" />
-      </Link>
-
-      <nav className="nav">
-        <Link className="nav-link" to="/">
-          Главная
-        </Link>
-        <Link className="nav-link" to="/">
-          Новости
-        </Link>
-        <Link className="nav-link" to="/">
-          Услуги
-        </Link>
-        <Link className="nav-link" to="/">
-          Вакансии
-        </Link>
-        <Link className="nav-link" to="/">
-          Поддержка
-        </Link>
-        <Link className="nav-link" to="/">
-          О компании
-        </Link>
-      </nav>
+      <div className="main-container">
+        <div className="header-inner">
+          <Link className="header-logo" to="/">
+            <Logo width="16" height="27.5" />
+            <div className="header-logo-title">BUILD</div>
+          </Link>
+          <nav className="header-nav">
+            <Link className="nav-item" to="/about">
+              About us
+            </Link>
+            <Link className="nav-item" to="/projects">
+              Projects
+            </Link>
+            <Link className="nav-item" to="/services">
+              Services
+            </Link>
+            <Link className="nav-item" to="/agents">
+              Agents
+            </Link>
+            <Link className="nav-item" to="/listings">
+              Listings
+            </Link>
+            <button className="nav-item search">
+              <Search />
+            </button>
+          </nav>
+          <Link className="header-service">Other services</Link>
+          <button className="header-contact-us">Contact Us</button>
+        </div>
+      </div>
     </header>
   );
 }

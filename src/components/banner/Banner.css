@@ -1,0 +1,57 @@
+.banner {
+  background: var(--gradient-blue-orange) no-repeat center;
+  border-radius: 15px;
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 32px;
+  height: 617px;
+  line-height: 19.2px;
+  margin-bottom: 75px;
+}
+.banner-form {
+  display: flex;
+  flex-direction: column;
+  margin: 91px 78px 176px 46px;
+  row-gap: 24px;
+}
+.banner-form:first-child {
+  row-gap: 15px;
+}
+
+.banner-title {
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 80.4px;
+}
+.banner-subtitle {
+  line-height: 24px;
+  width: 435px;
+}
+.banner-info-block {
+  display: flex;
+  flex-direction: row;
+}
+.banner-email {
+  background: var(--white-gray-light);
+  padding: 18px 24px;
+  border-radius: 40px;
+  background: var(--white-gray-light);
+}
+.banner-submit {
+  background-color: var(--dark-color);
+}
+.banner-block-image {
+  width: 728px;
+  height: 782px;
+  position: relative;
+}
+.banner-image {
+  position: absolute;
+  background: center;
+  width: 828px;
+  height: 782px;
+  transform: rotateY(180deg);
+  bottom: -20px;
+  z-index: 1;
+}
