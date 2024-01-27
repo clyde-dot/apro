@@ -13,13 +13,35 @@
   --gradient-blue-orange: linear-gradient(90deg, #c1dee8 0%, #fbd9b9 100%);
 }
 
-#root {
-  overflow-x: hidden;
-  height: 100%;
-  width: 100%;
-}
-
 .main-container {
   width: auto;
   margin-inline: 30px;
+}
+
+.input {
+  padding: 18px 25px;
+  border-radius: 40px;
+  white-space: nowrap;
+  font-weight: 600;
+  line-height: 24px;
+}
+.input-light {
+  background-color: var(--white-gray-light);
+  color: var(--dark-color);
+}
+.input-dark {
+  background-color: var(--dark-color);
+  color: var(--white-gray-light);
+}
+
+.input[type="submit"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.input[type="email"] {
+  font-weight: 400;
+  background: var(--white-gray-light);
+  padding: 18px 24px;
+  width: 100%;
 }

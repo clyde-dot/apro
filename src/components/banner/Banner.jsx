@@ -14,12 +14,12 @@ function Banner() {
           </p>
           <div className="banner-info-block">
             <input
-              className="banner-input-email"
+              className="input"
               type="email"
               placeholder="Enter your email"
             />
             <input
-              className="banner-submit"
+              className="input input-dark"
               type="submit"
               value="Get a Quote"
             />
