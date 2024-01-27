@@ -42,6 +42,7 @@
 .search {
   width: 24px;
   height: 24px;
+  background: transparent;
 }
 .header-service {
   text-align: center;

@@ -1,0 +1,32 @@
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.steps-group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 8.333vw;
+  padding-inline: 36px;
+}
+.steps-group-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 22px;
+  flex-basis: 33.333333%;
+}
+.steps-group-item-title {
+  font-size: 28px;
+  color: var(--black);
+  font-weight: 600;
+  line-height: 33.6px;
+}
+.steps.group-item-subtitle {
+  font-size: 16px;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 24px;
+}

@@ -1,0 +1,25 @@
+.projects {
+  margin-top: 132px;
+  display: flex;
+  flex-direction: column;
+}
+.projects-block-controller {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 16px;
+}
+.projects-controller {
+  padding: 11px 10px 10px 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.prev {
+  background-color: var(--white-gray-light);
+}
+.next {
+  background-color: var(--dark-color);
+}

@@ -6,9 +6,9 @@ function Banner() {
     <div className="main-container">
       <div className="banner">
         <div className="banner-form">
-          <div className="banner-pre-title">Welcome to Realstate</div>
+          <div className="text-pre-title">Welcome to Realstate</div>
           <h1 className="banner-title">Manage Your Property</h1>
-          <p className="banner-subtitle">
+          <p className="text banner-subtitle">
             Your will have everything nearby supermarket, buses , station, the
             carmen neighborhood, etc
           </p>

@@ -8,6 +8,7 @@
   --dark-gray-color: #1e1e1e;
   --dark-color: #1f1f1f;
   --gray: #fafafa;
+  --black: #000;
   --white-gray-light: #fefeff;
   --gray-color: #bebebe;
   --gradient-blue-orange: linear-gradient(90deg, #c1dee8 0%, #fbd9b9 100%);
@@ -44,4 +45,24 @@
   background: var(--white-gray-light);
   padding: 18px 24px;
   width: 100%;
+}
+
+.text {
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.text-pre-title {
+  font-size: 16px;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.text-title {
+  margin-block: 16px 45px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  color: var(--black);
 }
