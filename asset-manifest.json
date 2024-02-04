@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/apro/static/css/main.1f5f6085.css",
-    "main.js": "/apro/static/js/main.982ce059.js",
-    "static/media/banner.png": "/apro/static/media/banner.6787b92a4622e79fce37.png",
-    "static/media/messages.svg": "/apro/static/media/messages.e725a72171dbfd17fdef78493ead00ff.svg",
-    "static/media/edit-2.svg": "/apro/static/media/edit-2.eeb0856cde7f81f524ad1122cd3fe9f6.svg",
-    "index.html": "/apro/index.html",
-    "static/media/logo.svg": "/apro/static/media/logo.bdcbc6382ea1a125bc23fe0e2fcee37e.svg",
-    "static/media/search.svg": "/apro/static/media/search.db1b7c3f044ade54e24f0cd65288bea9.svg",
-    "static/media/arrow-right.svg": "/apro/static/media/arrow-right.c5d0feb862b434cfae1f1093b5d219ef.svg",
-    "static/media/arrow-left.svg": "/apro/static/media/arrow-left.ef77845a62812791ff31d6630de7a8ec.svg",
-    "main.1f5f6085.css.map": "/apro/static/css/main.1f5f6085.css.map",
-    "main.982ce059.js.map": "/apro/static/js/main.982ce059.js.map"
+    "main.css": "/react-template-build/static/css/main.8518ac3e.css",
+    "main.js": "/react-template-build/static/js/main.81fa3eff.js",
+    "static/media/banner.png": "/react-template-build/static/media/banner.6787b92a4622e79fce37.png",
+    "static/media/house-2.jpg": "/react-template-build/static/media/house-2.dd3b59e39fdb501ffc75.jpg",
+    "static/media/house-1.jpg": "/react-template-build/static/media/house-1.d530128654a8147c5ad6.jpg",
+    "static/media/house-3.jpg": "/react-template-build/static/media/house-3.26b47e7e497eb29a10a5.jpg",
+    "static/media/messages.svg": "/react-template-build/static/media/messages.e725a72171dbfd17fdef78493ead00ff.svg",
+    "static/media/edit-2.svg": "/react-template-build/static/media/edit-2.eeb0856cde7f81f524ad1122cd3fe9f6.svg",
+    "index.html": "/react-template-build/index.html",
+    "static/media/logo.svg": "/react-template-build/static/media/logo.60c558527e2cfc77394ff50521f133b3.svg",
+    "static/media/search.svg": "/react-template-build/static/media/search.db1b7c3f044ade54e24f0cd65288bea9.svg",
+    "static/media/arrow-right.svg": "/react-template-build/static/media/arrow-right.c5d0feb862b434cfae1f1093b5d219ef.svg",
+    "static/media/arrow-left.svg": "/react-template-build/static/media/arrow-left.ef77845a62812791ff31d6630de7a8ec.svg",
+    "main.8518ac3e.css.map": "/react-template-build/static/css/main.8518ac3e.css.map",
+    "main.81fa3eff.js.map": "/react-template-build/static/js/main.81fa3eff.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f5f6085.css",
-    "static/js/main.982ce059.js"
+    "static/css/main.8518ac3e.css",
+    "static/js/main.81fa3eff.js"
   ]
 }
