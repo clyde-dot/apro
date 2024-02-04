@@ -1,0 +1,21 @@
+.item {
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 14px;
+    border: 1px var(--gray-color) solid;
+}
+.image {
+    width: 100%;
+    border-radius: 14px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+    padding: 24px;
+}
+.title {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25.2px;
+}

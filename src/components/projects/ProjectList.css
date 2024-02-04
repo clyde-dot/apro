@@ -1,25 +1,32 @@
 .projects {
-  margin-top: 132px;
-  display: flex;
-  flex-direction: column;
+    margin-top: 132px;
+    margin-bottom: 112px;
+    display: flex;
+    flex-direction: column;
 }
 .projects-block-controller {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  column-gap: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 16px;
 }
 .projects-controller {
-  padding: 11px 10px 10px 11px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
+    padding: 11px 10px 10px 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
 }
 .prev {
-  background-color: var(--white-gray-light);
+    background-color: var(--white-gray-light);
 }
 .next {
-  background-color: var(--dark-color);
+    background-color: var(--dark-color);
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }

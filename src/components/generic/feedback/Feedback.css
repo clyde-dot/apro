@@ -1,0 +1,13 @@
+.feedback {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  column-gap: 15px;
+}
+
+.feedback-stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5.53px;
+}

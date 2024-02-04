@@ -1,12 +1,12 @@
 import React from "react";
 import "./Banner.css";
-import banner from "./banner.png";
+import banner from "./assets/banner.png";
 function Banner() {
   return (
     <div className="main-container">
       <div className="banner">
         <div className="banner-form">
-          <div className="text-pre-title">Welcome to Realstate</div>
+          <div className="single-text">Welcome to Realstate</div>
           <h1 className="banner-title">Manage Your Property</h1>
           <p className="text banner-subtitle">
             Your will have everything nearby supermarket, buses , station, the

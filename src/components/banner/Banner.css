@@ -41,6 +41,7 @@
 }
 .banner-image {
   position: absolute;
+  object-fit: cover;
   background: center;
   overflow: hidden;
   width: 828px;

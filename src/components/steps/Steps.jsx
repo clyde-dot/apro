@@ -9,7 +9,7 @@ function Steps() {
   return (
     <div className="main-container">
       <div className="steps">
-        <div className="text-pre-title">Three steps. Three minutes.</div>
+        <div className="single-text">Three steps. Three minutes.</div>
         <div className="text-title">Everything should be this easy.</div>
         <div className="steps-group">
           <div className="steps-group-item">
